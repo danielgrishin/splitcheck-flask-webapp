@@ -1,0 +1,47 @@
+{% extends 'split_check_template.html' %}
+
+{% block heading%}6{% endblock %}
+
+{% block body %}
+
+<form action="6" method="post">
+    <h2>Enter check total (including tax and tip):</h2>
+    <input type="text" name="check-total6" >
+
+    <h2>Enter check sub-total:</h2>
+    <input type="text" name="check-sub-total6" >
+
+    <h6>---------------------------------------------------------------------------</h6>
+    <h3> Person 1</h3>
+    <h5>(Name, Order1, Order2,...)</h5>
+    <input type="text" name="person61" >
+
+    <h6>---------------------------------------------------------------------------</h6>
+    <h3> Person 2</h3>
+    <h5>(Name, Order1, Order2,...)</h5>
+    <input type="text" name="person62" >
+
+    <h6>---------------------------------------------------------------------------</h6>
+    <h3> Person 3</h3>
+    <h5>(Name, Order1, Order2,...)</h5>
+    <input type="text" name="person63" >
+
+    <h6>---------------------------------------------------------------------------</h6>
+    <h3> Person 4</h3>
+    <h5>(Name, Order1, Order2,...)</h5>
+    <input type="text" name="person64" >
+
+    <h6>---------------------------------------------------------------------------</h6>
+    <h3> Person 5</h3>
+    <h5>(Name, Order1, Order2,...)</h5>
+    <input type="text" name="person65" >
+
+    <h6>---------------------------------------------------------------------------</h6>
+    <h3> Person 6</h3>
+    <h5>(Name, Order1, Order2,...)</h5>
+    <input type="text" name="person66" >
+    <h6> </h6>
+    <input type="submit">
+</form>
+
+{% endblock %}
